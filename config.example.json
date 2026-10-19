@@ -1,0 +1,22 @@
+{
+  "video_source": "videos/sample_video.mp4",
+  "input_type": "auto",
+  "detection_skip_frames": 3,
+  "exit_grace_frames": 30,
+  "recognition_threshold": 0.45,
+  "face_confidence_threshold": 0.5,
+  "min_face_size": 30,
+  "database_path": "database/visitors.db",
+  "entry_image_dir": "logs/entries",
+  "exit_image_dir": "logs/exits",
+  "event_log_path": "logs/events.log",
+  "yolo_model_path": "models/face_detector.pt",
+  "recognition_model_name": "buffalo_l",
+  "frame_resize_width": 960,
+  "display_video": true,
+  "save_detection_debug_video": false,
+  "log_level": "INFO",
+  "rtsp_reconnect_delay_sec": 2.0,
+  "rtsp_max_reconnect_attempts": 5,
+  "end_of_stream_policy": "mark_active"
+}

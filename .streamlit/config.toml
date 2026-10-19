@@ -1,0 +1,3 @@
+[server]
+# Maximum upload file size in MB (applies to both image and video uploaders)
+maxUploadSize = 500

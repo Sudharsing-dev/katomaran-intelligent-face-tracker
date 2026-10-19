@@ -1,0 +1,21 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+database/*.db
+database/*.sqlite*
+logs/
+videos/uploads/
+models/*.pt
+models/*.onnx
+
+# Local configuration
+config.json
+
+# Large sample videos
+video_sample1.mp4
+

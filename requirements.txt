@@ -1,0 +1,28 @@
+# Katomaran Intelligent Face Tracker Dependencies
+# Core scientific and computer vision libraries
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+opencv-python>=4.8.0.76
+pillow>=9.5.0
+
+# Deep Learning and Inference
+torch>=2.0.0
+torchvision>=0.15.0
+onnx>=1.14.0
+onnxruntime>=1.16.0
+
+# Detection and Recognition
+ultralytics>=8.1.0
+insightface>=0.7.3
+
+# Utilities and Performance Monitoring
+psutil>=5.9.5
+tqdm>=4.66.0
+requests>=2.31.0
+
+# Testing
+pytest>=7.4.0
+pytest-mock>=3.12.0
+
+# Optional Interactive UI (Streamlit Dashboard)
+streamlit>=1.28.0
